@@ -67,7 +67,7 @@
                         <div>
                             <label class="block text-gray-700 font-bold mb-2 invisible">Action</label>
                             <button type="button"
-                                class="remove-product bg-red-500 text-white p-2 w-full">Remove</button>
+                                class=" bg-red-500 text-white p-2 w-full">Remove</button>
                         </div>
                     </div>
                 </div>

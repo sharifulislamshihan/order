@@ -70,8 +70,6 @@ class AdminController extends Controller
             ]);
             $totalAmount += $product['total_price'];
         }
-        // Optionally update total_amount if needed in the future
-        // $order->update(['total_amount' => $totalAmount]);
 
         return redirect()->route('admin.index')->with('success', 'Order updated successfully!');
     }
